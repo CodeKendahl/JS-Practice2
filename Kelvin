@@ -1,0 +1,14 @@
+//The value will stay constant of the forecast today.
+const kelvin = 293;
+
+//Celsius is similar to Kelvin; only 273 degrees less.
+const celsius = kelvin - 273;
+
+//This equation calculates Fahrenheit.
+let fahrenheit = celsius * (9 / 5) + 32;
+
+//Math.floor to round down temp.
+fahrenheit = Math.floor(fahrenheit);
+
+//By using variables, this program should work for any Kelvin temperature — just change the value of kelvin and run the program again. Can use kelvin, fahrenheit...
+console.log(`The temperature is ${kelvin} degrees Fahrenheit.`);
